@@ -1,4 +1,29 @@
 #
+# device specific
+#
+
+# Brighness control
+XF86MonBrightness{Up,Down}
+	brightnessctl set{ +10%, 10%-}
+	
+# Speaker Volume control
+XF86Audio{RaiseVolume,LowerVolume}
+	pamixer{ --increase 5, --decrease 5}
+
+# Mic Volume control
+XF86Audio{Mute,MicMute}
+	pamixer{ --toggle-mute, --toggle-mute}
+
+# Screenshot
+Print
+	flameshot full --clipboard --path $HOME/Pictures/captures
+
+# Screenshot snip
+super + shift + s
+	flameshot gui --clipboard --path $HOME/Pictures/captures
+
+
+#
 # wm independent hotkeys
 #
 
@@ -23,7 +48,7 @@ super + alt + {q,r}
 	bspc {quit,wm -r}
 
 # close and kill
-super + {_,shift + }w
+super + {_,shift + }q
 	bspc node -{c,k}
 
 # alternate between the tiled and monocle layout
