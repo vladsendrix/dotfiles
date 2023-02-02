@@ -4,4 +4,4 @@ sxhkd &
 dunst &
 picom &
 xsetroot -cursor_name left_ptr &
-feh --bg-fill https://w.wallhaven.cc/full/1k/wallhaven-1kxp9g.jpg
+feh --bg-fill $HOME/.wallpapers/
