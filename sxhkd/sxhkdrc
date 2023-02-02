@@ -4,7 +4,7 @@
 
 # Brighness control
 XF86MonBrightness{Up,Down}
-	brightnessctl set{ +10%, 10%-}
+	brightnessctl set{ +5%, 5%-}
 	
 # Speaker Volume control
 XF86Audio{RaiseVolume,LowerVolume}
