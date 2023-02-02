@@ -1,0 +1,15 @@
+font:
+
+  normal:
+    family: "Monocraft"
+
+  bold:
+    family: "Monocraft"
+
+  italic:
+    family: "Monocraft"
+
+  bold_italic:
+    family: "Monocraft"
+
+  size: 13
