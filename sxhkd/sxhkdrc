@@ -12,7 +12,7 @@ XF86Audio{RaiseVolume,LowerVolume}
 
 # Mic Volume control
 XF86Audio{Mute,MicMute}
-	pamixer{ --toggle-mute, --toggle-mute}
+	pamixer{ --toggle-mute, --default-source -t}
 
 # Screenshot
 Print
