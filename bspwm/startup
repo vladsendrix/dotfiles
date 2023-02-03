@@ -5,3 +5,5 @@ dunst &
 picom &
 xsetroot -cursor_name left_ptr &
 feh --bg-fill $HOME/.wallpapers/
+brightnessctl -r
+numlockx
